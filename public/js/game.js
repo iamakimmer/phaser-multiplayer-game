@@ -23,7 +23,7 @@ function create () {
   socket = io.connect()
 
   // Resize our game world to be a 2000 x 2000 square
-  game.world.setBounds(-500, -500, 1000, 1000)
+  game.world.setBounds(0, 0, 800, 600)
 
   // Our tiled scrolling background
   land = game.add.tileSprite(0, 0, 800, 600, 'earth')
